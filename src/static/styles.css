@@ -50,11 +50,26 @@ section {
   max-width: 500px;
 }
 
-section h3 {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ddd;
   color: #1a237e;
+}
+
+#activity-toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#activity-toolbar input[type="text"],
+#activity-toolbar select {
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
 }
 
 .activity-card {
